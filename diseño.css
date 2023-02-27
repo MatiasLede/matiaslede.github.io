@@ -1,0 +1,128 @@
+* {
+    box-sizing: margin-box;
+}
+
+header {
+border: 10px solid rgb(235, 144, 26);
+padding: 15px;
+margin: 15px solid grey; 
+background-color: #462a0b; 
+}
+
+nav {
+padding: 15px;
+border: 5px solid rgb(235, 144, 26);
+margin: 10px;
+background-color: #6d410f;
+}
+
+main{
+padding: 15px;
+border: 10px;
+}
+
+
+body {
+    background-color: #b97738;
+}
+
+h1 {
+    font-family:'Noto Sans Cherokee', sans-serif;
+    font-size:35px;
+    color: #ffffff;
+}
+
+p {
+    font-family:'Tinos', serif;
+    color: #d3c2c2;
+}
+
+.texto_justificado {
+  text-align: justify;
+}
+
+.subtítulos_curric {
+    font-weight: bold;
+    color:rgb(223, 206, 240);
+    font-size:20px;
+}
+
+div {
+    display:none;    
+    color:#080808;    
+    font-family:'Tinos', serif;
+}
+
+li {
+    color:#462a0b;
+    font-weight: bold;
+    font-family:'Tinos', serif;
+    font-size:20px;
+}
+
+/**Efectos botón Datos Personales (btn1)*/
+.btn1 {
+    background-color:rgb(248, 229, 176);
+    padding: 3px 25px;
+    font-weight: bold;
+    border-radius:10px;
+    border:3px solid goldenrod;
+}
+.btn1:hover{
+    background-color: #d4770b;
+    color:#ffffff;
+}
+.btn1:hover:active{
+    background-color: #eec698;
+}
+
+/**Efectos botón Habilidades (btn2)*/
+.btn2 {
+    background-color:rgb(223, 248, 176);
+    padding: 3px 25px;
+    font-weight: bold;
+    border-radius:10px;
+    border:3px solid rgb(106, 218, 32);
+}
+.btn2:hover{
+    background-color: #418a06;
+    color:#ffffff;
+}
+.btn2:hover:active{
+    background-color: #b0ee98;
+}
+
+/**Efectos botón Educación (btn3)*/
+.btn3 {
+    background-color:rgb(176, 219, 248);
+    padding: 3px 25px;
+    font-weight: bold;
+    border-radius:10px;
+    border:3px solid rgb(32, 82, 218);
+}
+.btn3:hover{
+    background-color: #06258a;
+    color:#ffffff;
+}
+.btn3:hover:active{
+    background-color: #98b3ee;
+}
+
+/**Efectos botón Experiencia Profesional (btn4)*/
+.btn4 {
+    background-color:rgb(243, 216, 216);
+    padding: 3px 25px;
+    font-weight: bold;
+    border-radius:10px;
+    border:3px solid rgb(218, 32, 79);
+}
+.btn4:hover{
+    background-color: #8a0618;
+    color:#ffffff;
+}
+.btn4:hover:active{
+    background-color: #ee98a3;
+}    
+
+
+            
